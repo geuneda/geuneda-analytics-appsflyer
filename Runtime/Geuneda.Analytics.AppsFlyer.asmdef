@@ -1,0 +1,21 @@
+{
+    "name": "Geuneda.Analytics.AppsFlyer",
+    "rootNamespace": "Geuneda.Analytics.AppsFlyer",
+    "references": [
+        "Geuneda.Analytics",
+        "Geuneda.Core",
+        "UniTask",
+        "AppsFlyer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!GEUNEDA_SKIP_VENDOR_ADAPTERS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

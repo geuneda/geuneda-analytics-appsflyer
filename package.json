@@ -1,0 +1,16 @@
+{
+  "name": "com.geuneda.analytics.appsflyer",
+  "displayName": "Geuneda Analytics AppsFlyer",
+  "author": "geuneda",
+  "version": "0.1.0",
+  "unity": "2023.1",
+  "license": "MIT",
+  "description": "com.geuneda.analytics 의 AppsFlyer sink 입니다(AppsFlyer Unity 플러그인 7.x). 파라미터를 문자열로 보내고, 표준 이벤트를 AppsFlyer 표준(구매 → af_purchase, 광고 노출 수익 → logAdRevenue 와 미디에이션 선택)으로 바꿉니다. AppsFlyer 초기화는 게임이 하고 MarkReady 로 알립니다. appsflyer-unity-plugin 을 설치한 프로젝트에서만 씁니다.",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.geuneda.analytics": "0.2.0",
+    "com.geuneda.core": "0.4.0",
+    "com.cysharp.unitask": "2.5.10"
+  }
+}
